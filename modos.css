@@ -1,0 +1,31 @@
+.conteudo{
+    font-family: "Archivo Black", sans-serif;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.lista_conteudo{
+    width: 990px;
+}
+
+
+.terceiro_paragrafo_list{
+    padding: 1%;
+    background-color: #282828;
+}
+
+section details summary{
+    background-color: #0074F8;
+    padding: 1%;
+    border-bottom: 2px solid #000000;
+    text-transform: uppercase;
+    font-family: "Archivo Black", sans-serif;
+    outline: none;
+    box-shadow: 0px 10px 40px -12px #6ec5ff;
+    cursor: pointer
+}
+
+section details summary :hover{
+    background-color: #113968;
+    box-shadow: 0px 10px 40px -12px #113968;
+}
