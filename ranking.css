@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Poppins:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10+Charted&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sarala:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #113968;
+}
+
+.titulo{
+    font-family: 'Righteous', cursive;
+    letter-spacing: 8px;
+    font-weight: 900;
+}
+
+.imagem_titulo{
+    height: 50px;
+}
+
+.branco{
+    color: #FFFFFF;
+}
+.header{
+    background: #1a518f;
+    padding: 15px;
+    text-align: center;
+    box-sizing: border-box;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    color: #f0ffffde;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #6ec5ff;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.menu, 
+.logo{
+    padding: 10px;
+}
+
+a {
+    color: #fcfcfc;
+    text-decoration: none;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-style: normal;
+    padding: 8px 12px;
+    position: relative;
+    width: 100%;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    box-shadow: 0px 10px 40px -12px #6ec5ff;
+    background: #0074F8;
+    cursor: pointer;
+}
+
+a:after{
+    /*background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;*/
+}
+
+a:hover{
+    /*width: 100%;
+    left: 0;*/
+    background-color: #113968;
+    box-shadow: 0px 10px 40px -12px #113968;
+}
+
+@media screen and (max-height: 300px) {
+    ul {
+        margin-top: 40px;
+    }
+}
+
+.container {
+    width: 990px;
+    margin: 0 auto;
+    margin-top: 20px;
+    color: #FFFFFF;
+}
+
+.posts {
+    width: 600px;
+    float: left;
+    font-family: 'Righteous', cursive;
+}
+
+.post_subititulo{
+    font-family: "Sarala", sans-serif;
+    font-weight: 200;
+    margin-top: 10px;
+}
+
+.barra-lateral{
+    width: 240px;
+    float: right;
+    margin-top: 20px;
+}
+
+.imagem_principal{
+    height: 550px;
+    margin-top: 25px;
+    position: relative;
+    margin: 25px;
+    border: none;
+    border-radius: 15px;
+    outline: none;
+    box-shadow: 0px 10px 40px -12px #6ec5ff;
+}
+
+.texto{
+    width: 990px;
+    margin: 15px;
+    padding: 10px;
+}
+
+.segundo_paragrafo{
+    width: 990px;
+    margin: 15px;
+    padding: 10px;
+}
+
+.terceiro_paragrafo{
+    width: 990px;
+    margin: 15px;
+    padding: 10px;
+}
+
+.bronze{
+    color: #74471e;
+    font-family: "Archivo Black", sans-serif;
+    text-transform: uppercase;
+}
+
+.prata{
+    color: #7c7d7e;
+    font-family: "Archivo Black", sans-serif;
+    text-transform: uppercase;
+}
+
+.ouro{
+    color: #e7e406;
+    font-family: "Archivo Black", sans-serif;
+    text-transform: uppercase;
+}
+
+.platina{
+    color: #6efaff;
+    font-family: "Archivo Black", sans-serif;
+    text-transform: uppercase;
+}
+
+.diamante{
+    color: #0080f8;
+    font-family: "Archivo Black", sans-serif;
+    text-transform: uppercase;
+}
+
+.campeao{
+    color: #4a00f8;
+    font-family: "Archivo Black", sans-serif;
+    text-transform: uppercase;
+}
+
+.grande_campeao{
+    color: #e94266;
+    font-family: "Archivo Black", sans-serif;
+    text-transform: uppercase;
+}
+
+.ssl{
+    color: #e45fe9;
+    font-family: "Archivo Black", sans-serif;
+    text-transform: uppercase;
+}
+
+.subititulo{
+    text-transform: uppercase;
+}
